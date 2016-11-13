@@ -150,9 +150,9 @@ package: libs symbols python xbmc/classes.dex
 apk-sign:
 	@echo "Signing..."
 	@jarsigner -sigalg MD5withRSA -digestalg SHA1 -keystore $(SIGN_STORE) -storepass $(SIGN_STOREPASS) $(SIGN_KEYPASS_OPT) images/@APP_NAME_LC@app-debug-$(CPU)-unaligned.apk $(SIGN_KEY)
-	@$(ZIPALIGN) -f 4 images/@APP_NAME_LC@app-debug-$(CPU)-unaligned.apk $(XBMCROOT)/WeTekMediaPlayer-$(CPU)-debug.apk
+	@$(ZIPALIGN) -f 4 images/@APP_NAME_LC@app-debug-$(CPU)-unaligned.apk $(XBMCROOT)/TVPMC-$(CPU)-debug.apk
 	@rm images/@APP_NAME_LC@app-debug-$(CPU)-unaligned.apk
-	@echo "$(XBMCROOT)/WeTekMediaPlayer-$(CPU)-debug.apk created"
+	@echo "$(XBMCROOT)/TVPMC-$(CPU)-debug.apk created"
 
 $(PREFIX)/lib/xbmc/lib@APP_NAME_LC@.so: $(SRCLIBS)
 	$(MAKE) -C ../../depends/target/xbmc

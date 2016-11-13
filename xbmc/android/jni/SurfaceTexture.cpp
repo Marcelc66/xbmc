@@ -36,7 +36,7 @@ using namespace jni;
 CJNISurfaceTextureOnFrameAvailableListener* CJNISurfaceTextureOnFrameAvailableListener::m_listenerInstance(NULL);
 
 CJNISurfaceTextureOnFrameAvailableListener::CJNISurfaceTextureOnFrameAvailableListener()
-: CJNIBase("com/wetek/mediaplayer/XBMCOnFrameAvailableListener")
+: CJNIBase("com/tvplusmedia/tvpmc/XBMCOnFrameAvailableListener")
 {
   CJNIMainActivity *appInstance = CJNIMainActivity::GetAppInstance();
   if (!appInstance)

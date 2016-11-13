@@ -1,4 +1,4 @@
-package com.wetek.@APP_NAME_LC@;
+package com.tvplusmedia.@APP_NAME_LC@;
 
 import android.graphics.SurfaceTexture;
 import android.graphics.SurfaceTexture.OnFrameAvailableListener;

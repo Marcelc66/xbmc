@@ -100,7 +100,7 @@ bool CJNIAudioManager::isWiredHeadsetOn()
 CJNIAudioManagerAudioFocusChangeListener* CJNIAudioManagerAudioFocusChangeListener::m_listenerInstance(NULL);
 
 CJNIAudioManagerAudioFocusChangeListener::CJNIAudioManagerAudioFocusChangeListener()
-: CJNIBase("com/wetek/mediaplayer/XBMCOnAudioFocusChangeListener")
+: CJNIBase("com/tvplusmedia/tvpmc/XBMCOnAudioFocusChangeListener")
 {
   CJNIMainActivity *appInstance = CJNIMainActivity::GetAppInstance();
   if (!appInstance)

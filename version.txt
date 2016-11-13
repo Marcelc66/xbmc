@@ -1,7 +1,7 @@
-APP_NAME MediaPlayer
-APP_PACKAGE_ROOT com.wetek
+APP_NAME tvpmc
+APP_PACKAGE_ROOT com.tvplusmedia
 COMPANY_NAME XBMC-Foundation
-WEBSITE http://www.wetek.com
+WEBSITE http://www.google.com
 VERSION_MAJOR 16
 VERSION_MINOR 1
 VERSION_TAG

@@ -107,7 +107,7 @@ std::vector<androidPackage> CXBMCApp::m_applications;
 
 CXBMCApp::CXBMCApp(ANativeActivity* nativeActivity)
   : CJNIMainActivity(nativeActivity)
-  , CJNIBroadcastReceiver("com/wetek/mediaplayer/XBMCBroadcastReceiver")
+  , CJNIBroadcastReceiver("com/tvplusmedia/tvpmc/XBMCBroadcastReceiver")
 {
   m_xbmcappinstance = this;
   m_activity = nativeActivity;
